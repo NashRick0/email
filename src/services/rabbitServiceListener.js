@@ -4,7 +4,7 @@ import { sendEmailWelcome } from '../controller/emailController.js'; // Importar
 
 dotenv.config();
 
-const RABBITMQ_URL = process.env.RABBITMQ_HOST;
+const RABBITMQ_URL = process.env.RABBITMQ_URL;
 
 export async function userEvents(){
     try {
